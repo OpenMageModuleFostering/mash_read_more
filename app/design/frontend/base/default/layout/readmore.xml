@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout>
+  <default>
+    <reference name="head">
+      <block type="core/template" name="readmore" template="readmore/readmorejs.phtml" />
+      <action method="addItem">
+        <type>skin_js</type>
+        <name>js/readmore.js</name>
+        <params/>
+      </action>
+    </reference>
+  </default>
+</layout>

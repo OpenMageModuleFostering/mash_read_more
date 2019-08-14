@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Mash_Read_More</name>
+    <version>0.0.1</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL) </license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Easily add dynamic read more functionality to your category descriptions.</summary>
+    <description>Mash Category Read More allows you to easily add fool proof read more functionality to your website without having to touch a line of code. Great for non technical customers.</description>
+    <notes>First stable release of Mash Category Read more.</notes>
+    <authors><author><name>Adam Collins</name><user>mash_web_design</user><email>info@mash-webdesign.co.uk</email></author></authors>
+    <date>2014-06-30</date>
+    <time>17:40:11</time>
+    <contents><target name="magecommunity"><dir name="Mash"><dir name="ReadMore"><dir name="Helper"><file name="Data.php" hash="73b4751f2117ddd2bba1c66d549a9374"/><dir name="_notes"><file name="dwsync.xml" hash="f7e51457a4a77213c03c907a36fc2c1e"/></dir><file name=".DS_Store" hash="b32c25a917b2cc0cb607ee96f6569235"/></dir><dir name="etc"><dir name="_notes"><file name="dwsync.xml" hash="79812def939b4eff9ecf12a43603cb94"/></dir><file name="config.xml" hash="6b8fdcad02c16226c828bd7c87f89b86"/><file name="system.xml" hash="2d0ee87dec64f6fd389b32bbda442f8e"/><file name=".DS_Store" hash="e619a4275ee17cc8ab69faeed2185b4c"/></dir><dir name="model"><file name="Mash_ReadMore_Model_Category.php" hash="45b72b38af51a2045aaa5fc1c5564a2c"/><dir name="_notes"><file name="dwsync.xml" hash="e798a2955cf74bfddb1eb33e114c439e"/></dir><file name=".DS_Store" hash="43f3f31ec4e288153b6bc0539aabe5af"/></dir><dir name="sql"><dir name="readmore_attr_setup"><dir name="_notes"><file name="dwsync.xml" hash="77e233b24f98a120e9ec72ee2477322b"/></dir><file name="mysql4-install-0.0.1.php" hash="b892a94eedf8c08c10f4ff3338a9cd87"/><file name=".DS_Store" hash="f89a09ec9528588833d7656468f935b3"/></dir><file name=".DS_Store" hash="b75d65a1c29432dc8fb7f1442ad3ecd4"/></dir><file name=".DS_Store" hash="0f2c78dbdfacd9a9068c36cc70040c42"/></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="readmore.xml" hash="138b56632e6b6c87892d8288518749a8"/></dir><dir name="template"><dir name="readmore"><file name="readmorejs.phtml" hash="eca4ac9d4cb81b9bf221c7ba2c226081"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Mash_ReadMore.xml" hash="a4559c6ecfc527ab7e7208f37a2aa242"/></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="js"><file name="readmore.js" hash="37bc5959132904e9c654318b5df8a904"/></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

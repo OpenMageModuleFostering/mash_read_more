@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+	   <Mash_ReadMore>
+	      <active>true</active>
+	      <codePool>community</codePool>
+		      <version>2.0</version> 
+	   </Mash_ReadMore>
+	</modules>
+</config>

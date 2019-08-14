@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <readmoreconfig translate="label" module="readmore">
+            <label>Mash Read More</label>
+            <sort_order>99999</sort_order>
+        </readmoreconfig>
+    </tabs> 
+    <sections>
+        <readmoreconfig_options translate="label" module="readmore">
+            <label>Settings</label>
+            <tab>readmoreconfig</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>      
+			  <groups>
+                <read_more_settings translate="label">
+                    <label>Read More Config Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>                
+                	<fields>
+      				  <readmore_show_paragraphs>
+						  <label>Show Paragraphs</label>
+						  <frontend_type>text</frontend_type>
+						  <sort_order>1</sort_order>
+						  <show_in_default>1</show_in_default>
+						  <show_in_website>1</show_in_website>
+						  <show_in_store>1</show_in_store>                    
+        			  </readmore_show_paragraphs>
+				
+    				</fields>          
+				</read_more_settings>
+            </groups>              
+        </readmoreconfig_options>
+    </sections>     
+</config>

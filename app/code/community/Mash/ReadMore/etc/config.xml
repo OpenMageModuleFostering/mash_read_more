@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<config>
+        <modules>
+                <Mash_ReadMore>
+                        <version>0.0.4</version>
+                </Mash_ReadMore>
+        </modules>
+		<global>
+		<helpers>
+			<readmore>
+				<class>Mash_ReadMore_Helper</class>
+			</readmore>
+		</helpers>
+        <models>
+            <!-- ... -->
+            <readmore>
+                <class>Mash_ReadMore_Model</class>
+            </readmore>   
+			 
+            <!-- ... -->
+        </models> 	  
+	   <resources>
+            <readmore_attr_setup>
+                <setup>
+                    <module>Mash_ReadMore</module>
+                    <class>Mage_Catalog_Model_Resource_Eav_Mysql4_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </readmore_attr_setup>
+            <readmore_attr_setup_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </readmore_attr_setup_write>
+            <readmore_attr_setup_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </readmore_attr_setup_read>
+        </resources>
+	</global>
+	
+<frontend>
+    <layout>
+      <updates>
+        <readmore>
+          <file>readmore.xml</file>
+        </readmore>
+      </updates>
+    </layout>
+ </frontend>
+ <adminhtml>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <readmoreconfig_options>
+                                            <title>Read More Settings</title>
+                                        </readmoreconfig_options>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+    </adminhtml>
+	
+
+
+
+
+</config>
+
+
+

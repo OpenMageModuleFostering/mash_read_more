@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Mash_Read_More",
+    "type": "magento-module",
+    "license": "Open-Software-License-(OSL)-",
+    "homepage": "",
+    "description": "Easily add dynamic read more functionality to your category descriptions.",
+    "authors": [
+    {
+        "name": "Adam Collins",
+        "email": "info@mash-webdesign.co.uk"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
